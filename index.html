@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dealing with Feelings</title>
+	<meta name="description" content="Dealing with Feelings generates quotes based on how you are feeling and how you want to feel.">
+	<link rel="shortcut icon" href="images/cuteBlueBunny.png" type="image/png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Barrio|Monofett|Rock+Salt" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+	<header class="title">
+		<div>
+			<img src="images/cuteBlueBunny.png" alt="cute blue bunny">
+		</div>
+		<h1>Dealing with Feelings</h1>
+		<div>
+			<img src="images/cuteBunny.png" alt="cute bunny">
+		</div>
+	</header>
+	<div class="popup invisible">
+		<div>
+			X
+		</div>
+		<div id="twtbox">
+		</div>
+	</div>
+	<main class="container">
+		<div class="emotionsWrapper">
+			<section class="currentEmotion">
+				<h1>I'm Feeling:</h1>
+				<div class="iconWrapper">
+					<div class="icon sad">
+						<img src="images/sad.png" alt="sad icon" title="sad">
+						<p>Sad</p>
+					</div>
+					<div class="icon happy">
+						<img src="images/happy.png" alt="happy icon" title="happy">
+						<p>Happy</p>
+					</div>
+					<div class="icon relax">
+						<img src="images/relax.png" alt="relax icon" title="relaxed">
+						<p>Relaxed</p>
+					</div>
+					<div class="icon stressed">
+						<img src="images/stressed.png" alt="stressed icon" title="stressed">
+						<p>stressed</p>
+					</div>
+				</div>
+			</section>
+			<section class="futureEmotion">
+				<h1>I want to Feel:</h1>
+				<div class="iconWrapper">
+					<div class="icon sad">
+						<img src="images/sad.png" alt="sad icon" title="sad">
+						<p>Sad</p>
+					</div>
+					<div class="icon happy">
+						<img src="images/happy.png" alt="happy icon" title="happy">
+						<p>Happy</p>
+					</div>
+					<div class="icon relax">
+						<img src="images/relax.png" alt="relax icon" title="relaxed">
+						<p>Relaxed</p>
+					</div>
+					<div class="icon stressed">
+						<img src="images/stressed.png" alt="stressed icon" title="stressed">
+						<p>stressed</p>
+					</div>
+					
+				</div>
+			</section>
+		</div>
+		<section class="selectorSection">
+			<h1>Choose a Quote Style:</h1>
+			<div class="quoteSelectors">
+				<button class="quoteSelector" value="hallmark">Hallmark</button>
+				<button class="quoteSelector" value="funny">Funny</button>
+				<button class="quoteSelector" value="huh">Huh?</button>
+				<button class="quoteSelector" value="random">Random</button>
+			</div>
+		</section>
+		<section class="submitSection">
+			<button class="submit">Submit</button>
+		</section>
+	</main>
+	<footer>
+		<p>Made with 💜 by Amy and Julian</p>
+	</footer>
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<script src="script.js"></script>
+</body>
+</html>
