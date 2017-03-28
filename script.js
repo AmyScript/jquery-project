@@ -148,12 +148,12 @@ $(function(){
 			quoteGroup: [
 				{
 				quoteType: "hallmark",
-				quote: "Only dumb people are happy",
-				author: "Courtney Love"
+				quote: "Turn that frown upside down",
+				author: "Anonymous"
 				},				{
 				quoteType: "funny",
-				quote: "I am the least racist person ever",
-				author: "Donald Trump"
+				quote: "Why would you want to be sad when you are happy?!?",
+				author: "Amy"
 				},				{
 				quoteType: "huh",
 				quote: "No one's really happy anyway, it's not human.",
